@@ -19,22 +19,40 @@ body{
     text-align: center;
 }
 
+#logo{
+    margin-bottom: 10px;
+}
+
+#nav{
+    font-size: 25px;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    padding: 5px 0 5px 0;
+}
+
 footer{
     border-top: 1px solid #000000;
-    margin-top: 10px;
+    background-color: #CCC;
+    font-family: 'Shadows Into Light', cursive; font-weight: 200;
+    padding: 5px 0 5px 0;
+    letter-spacing: 1.5px;
 }
 
 
 h1, h2, p{
     font-family: 'Shadows Into Light', cursive; font-weight: 200;
+    letter-spacing: 1.5px;
 }
 
 a{
     font-family: 'Shadows Into Light', cursive; text-decoration: none;
+    letter-spacing: 1.5px;
 }
 
 ul{
     font-family: 'Shadows Into Light', cursive; font-weight: 200;
+    list-style-type: none;
+    letter-spacing: 1.5px;
 }
 
 #login-wrapper, #register-wrapper{
@@ -46,8 +64,12 @@ ul{
     margin-top: 0px;
 }
 
-form label{
-    display: inline-block; width: 130px; height: 30px; text-align: right;
+form input{
+    margin-bottom: 10px;
+    height: 20px;
+    width: 200px;
+    font-family: 'Shadows Into Light', cursive; font-weight: 200;
+    font-size: 16px;
 }
 
 #loginbutton {
@@ -98,7 +120,9 @@ form label{
 	
 .tfbutton {
  margin: 0;
- padding: 5px 15px;
+ padding: 0;
+ height: 32px;
+ width: 150px;
  font-family: 'Shadows Into Light', cursive; font-weight: 200;
  font-size:14px;
  outline: none;
@@ -141,6 +165,13 @@ form label{
 
 #detail img{
     margin-bottom: 20px;
+    border: 1px solid #000000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 5px 5px #888;
+    -webkit-box-shadow: 0 5px 5px #888;
+    box-shadow: 0 5px 5px #888;
 }
 
 
