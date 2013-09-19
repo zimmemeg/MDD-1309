@@ -4,46 +4,40 @@
     <meta charset="UTF-8">
     <title>Snap!</title>
     
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="brand" href="#/page/home">Welcome to Snap!</a>
-                <header>
-                    <form><input type="search" placeholder="Search Images"><h3><a href="views/logout.php">Log Out</a></h3></form>
-                </header>
+ <div id="main-wrapper">
+        <header>
+            <a href="#"><img src="images/logo.png" alt="Snap!" width="451" height="151" id="logo"></a>
+            
+            <div id="nav">
+                <a href="index.php">Home</a> | 
+                <a href="register.php">Sign Up</a> | 
+                <a href="#">Profile</a> | 
+                <a href="http://www.flickr.com/">Flickr</a> |
+                <a href="views/logout.php">Log Out</a>
             </div>
+            
+        </header>
+        <div id="listing-wrapper">
+		
+                <form><input type="search" placeholder="Search Images"></form>
         </div>
     </div>
-    
-    <header>
-        <h2>Welcome to Snap!</h2>
-        <p>To begin, enter a description in the field above!</p>
-    </header>
-    <ul class="results"></ul>
-    
-    <footer>
-        Megan Zimmerman | MDD 1309 | API use from <a href="http://www.flickr.com/">Flickr</a>
-    </footer>
-    
-    <!--All Templates here-->
-    <script type="text/template" id="searchresults">
-        <li><img class="<%= tick ? 'tick' : '' %>" src="http://farm<%= farm %>.static.flickr.com/<%= server %>/<%= id %>_<%= secret %>_t.jpg" /><span class="action"></span></li>
-        <img class="<%= tick ? 'tick' : ''%>" src="http://farm<%= farm%>.static.flickr.com/<%= server %>/<%= id %>_<%= secret %>_z.jpg">
-    </script>
-    
-    <article></article>
+
+<footer>
+    Megan Zimmerman | MDD 1309 | API use from <a href="http://www.flickr.com/">Flickr</a>
+</footer>
     
     <!--All Javascript down here-->
     <script src="js/jquery.min.js"></script>
     <script src="js/underscore.js"></script>
     <script src="js/backbone.js"></script>
-    <script src="js/backbone-localstorage.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/backbone-localstorage.js"></script> 
 </body>
 </html>

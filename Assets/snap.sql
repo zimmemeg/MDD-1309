@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.5.29)
 # Database: snap
-# Generation Time: 2013-09-18 07:44:48 +0000
+# Generation Time: 2013-09-18 10:34:23 +0000
 # ************************************************************
 
 
@@ -29,7 +29,7 @@ CREATE TABLE `user` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `username` varchar(20) NOT NULL DEFAULT '',
   `password` varchar(20) NOT NULL DEFAULT '',
-  `email` varchar(50) NOT NULL DEFAULT '',
+  `user_salt` char(8) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`),
   UNIQUE KEY `UX_username` (`username`),
   UNIQUE KEY `UX_username_password` (`username`,`password`)
@@ -38,9 +38,9 @@ CREATE TABLE `user` (
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
 
-INSERT INTO `user` (`id`, `username`, `password`, `email`)
+INSERT INTO `user` (`id`, `username`, `password`, `user_salt`)
 VALUES
-	(1,'zimmemeg','password','zimmemeg@fullsail.edu');
+	(1,'zimmemeg','password','');
 
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;

@@ -1,5 +1,5 @@
 <?php
-include_once('config.php');
+include_once "class/user.php";
 ?>
 
 <?php if(!(isset($_POST['register']))){?>
@@ -37,14 +37,14 @@ include_once('config.php');
                 </ul>
             <h2>Already registered? <a href="index.php">Click here</a> to log in!</h2>
         
-            <form>
-                <input type="text" name="username" class="textinput" placeholder="Username">
+            <form method="post">
+                <input type="text" name="username" class="textinput" required placeholder="Username">
                     <br>
-                <input type="password" name="password" class="textinput" placeholder="Password">
+                <input type="password" name="password" class="textinput" required placeholder="Password">
                     <br>
-                <input type="text" name="email" class="email" placeholder="E-mail">
+                <input type="password" name="confirm" required placeholder="Confirm Password">
                     <br>
-                <input type="submit" name="Register" value="Register" id="registerbutton" style="width: 100px; height: 30px; margin-top: 10px;">
+                <input type="submit" name="Register" value="Register" id="registerbutton">
                 <input type="button" name="Cancel" value="Cancel" id="cancelbutton" onclick="location.href='index.php'">
 
             </form>
@@ -56,13 +56,13 @@ include_once('config.php');
 </footer>
 </html>
 <?php
-}else{
-    $usr = new user;
+} else {
+    $usr = new Users;
     $usr->storeFormValues($_POST);
     
     if($_POST['password'] == $_POST['confirm']){
         echo $usr->register($_POST);
-    }else{
+    } else {
         echo "Passwords do not match.";
     }
 }

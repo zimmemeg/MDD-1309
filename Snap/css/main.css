@@ -1,3 +1,4 @@
+/**Main page styling**/
 header{
     background-color: #CCC;
     text-align: center;
@@ -19,17 +20,6 @@ body{
     text-align: center;
 }
 
-#logo{
-    margin-bottom: 10px;
-}
-
-#nav{
-    font-size: 25px;
-    border-top: 1px solid #555;
-    border-bottom: 1px solid #555;
-    padding: 5px 0 5px 0;
-}
-
 footer{
     border-top: 1px solid #000000;
     background-color: #CCC;
@@ -38,6 +28,17 @@ footer{
     letter-spacing: 1.5px;
 }
 
+#logo{
+    margin-bottom: 10px;
+}
+
+/**Navigation styling here**/
+#nav{
+    font-size: 25px;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    padding: 5px 0 5px 0;
+}
 
 h1, h2, p{
     font-family: 'Poiret One', cursive; font-weight: 700;
@@ -47,6 +48,11 @@ h1, h2, p{
 a{
     font-family: 'Poiret One', cursive; text-decoration: none; font-weight: 700;
     letter-spacing: 1.5px;
+    color: #2E64FE;
+}
+
+a:hover{
+    color: #FFFF00;
 }
 
 ul{
@@ -91,7 +97,7 @@ form input{
  border: 1px solid #000;
  width: 100px;
  height: 30px;
- background: #07bf60;
+ background: #FFFF00;
  margin: 10px 0;
  font-family: 'Poiret One', cursive; font-weight: 700;
  font-size: 15px;
@@ -113,61 +119,9 @@ form input{
 }
 
 
-#results{
-    padding-bottom: 20px;
-}
-
-#searchheader{
- background-color: #CCC;
-}
-
-#search{
- padding:20px;
-}
-
-.search-input{
- margin: 0;
- padding: 5px 15px;
- font-family: 'Poiret One', cursive; font-weight: 700;
- font-size:14px;
- border:1px solid #000; border-right:0px;
- border-top-left-radius: 5px 5px;
- border-bottom-left-radius: 5px 5px;
-}
-	
-.tfbutton {
- margin: 0;
- padding: 0;
- height: 32px;
- width: 150px;
- font-family: 'Poiret One', cursive; font-weight: 700;
- font-size:14px;
- outline: none;
- cursor: pointer;
- text-align: center;
- text-decoration: none;
- color: #000;
- border: solid 1px #000; border-right:0px;
- background: #0095cd;
- background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
- background: -moz-linear-gradient(top,  #00adee,  #0078a5);
- border-top-right-radius: 5px 5px;
- border-bottom-right-radius: 5px 5px;
-}
-
-.tfbutton:hover {
- text-decoration: none;
- background: #007ead;
- background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
- background: -moz-linear-gradient(top,  #0095cc,  #00678e);
-}
-
-.tfbutton::-moz-focus-inner {
- border: 0;
-}
-
-.tfclear{
- clear:both;
+/**Results styling, preview styling**/
+#listing-wrapper{
+    background-color: #CCC;
 }
 
 #results img{

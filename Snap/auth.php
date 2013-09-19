@@ -1,8 +1,8 @@
 <?php
 
 require_once "db.php";
-require_once "models/AuthModel.php";
-require_once "views/AuthView.php";
+require_once "AuthModel.php";
+require_once "AuthView.php";
 
 $model = new AuthModel(MY_DSN, MY_USER, MY_PASS);
 $view = new AuthView();
