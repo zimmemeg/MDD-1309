@@ -1,24 +1,23 @@
 <?php
 
-//Adding all the required files to make the page run
-require_once "Controllers/db.php";
-require_once "Models/AuthModel.php";
-require_once "Views/AuthView.php";
+//Adding the required fields to make the page run.
+require_once "db.php";
+require_once "../Models/AuthModel.php";
+require_once "../Views/AuthView.php";
 
-//Creating a new authentication model and authentication view for the login.
+//Creating a new authentication model and authentication view for the user.
 $model = new AuthModel(MY_DSN, MY_USER, MY_PASS);
 $view = new AuthView();
 
-//Defining the variables for the username and password.
-//Triming the white space off both and making the username lowercase.
+//Defining the variables for username and password, trim the white space and lowercase the username
 $username = empty($_POST['username']) ? '' : strtolower(trim($_POST['username']));
 $password = empty($_POST['password']) ? '' : trim($_POST['password']);
 
-//Defining the variables for the content page and the default user
+//Defining the content page as the login form, setting the default user to NULL
 $contentPage = 'form';
 $user = NULL;
 
-//Starting the session
+//starting the session
 session_start();
 
 //If the session is empty, take the userinfo and show the success page

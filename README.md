@@ -19,3 +19,4 @@ Log:<br>
 9/10/13 - Added Progress video to Readme.<br>
 9/18/13 - Moved assets to asset folder, created log in for webpage. Working on viewing results.<br>
 9/18/13 - Updated CSS based on reviews. Can't figure out why it won't register new user, working on displaying results.<br>
+9/25/13 - Got API to function, updated file structure.<br>

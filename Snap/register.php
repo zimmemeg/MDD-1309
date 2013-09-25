@@ -1,8 +1,13 @@
 <?php
-include_once "class/user.php";
+//Includes the user class so that if the user is new, they can
+//register before attempting to log in
+include_once "Class/user.php";
 ?>
 
 <?php if(!(isset($_POST['register']))){?>
+
+<!--HTML coding to display the main page. Includes the form to fill
+out to register, a button to take you to the sign up page and a navigation-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -56,6 +61,9 @@ include_once "class/user.php";
 </footer>
 </html>
 <?php
+//if the user does not exist the new info is posted into the usr variable.
+//It is stored in a storeFormValue function in the Users class. if both passwords match,
+//the information is posted to the register document, if not an error is displayed.
 } else {
     $usr = new Users;
     $usr->storeFormValues($_POST);
