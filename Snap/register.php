@@ -14,7 +14,7 @@ out to register, a button to take you to the sign up page and a navigation-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
-    <link href="Libraries/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/main.css">
         
@@ -33,6 +33,7 @@ out to register, a button to take you to the sign up page and a navigation-->
             </div>
             
         </header>
+
         <div id="register-wrapper">
             <h1>Why to register for Snap?</h1>
                 <ul>
@@ -42,7 +43,7 @@ out to register, a button to take you to the sign up page and a navigation-->
                 </ul>
             <h2>Already registered? <a href="index.php">Click here</a> to log in!</h2>
         
-            <form method="post">
+            <form method="post" action="register.php">
                 <input type="text" name="username" class="textinput" required placeholder="Username">
                     <br>
                 <input type="password" name="password" class="textinput" required placeholder="Password">
@@ -57,7 +58,7 @@ out to register, a button to take you to the sign up page and a navigation-->
     </div>
 </body>
 <footer>
-    Megan Zimmerman | MDD 1309 | API use from <a href="http://www.flickr.com/">Flickr</a>
+    Megan Zimmerman | MDD 1309 | API use from <a href="http://www.flickr.com/">Flickr</a> | <a href="Views/contact.inc">Contact Us</a> | <a href="Views/privacy.inc">Privacy Policy</a>
 </footer>
 </html>
 <?php

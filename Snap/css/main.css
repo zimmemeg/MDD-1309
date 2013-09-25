@@ -23,9 +23,14 @@ body{
 footer{
     border-top: 1px solid #000000;
     background-color: #CCC;
-    font-family: 'Poiret One', cursive; font-weight: 700;
+    font-family: 'Poiret One', cursive; font-weight: bold;
     padding: 5px 0 5px 0;
     letter-spacing: 1.5px;
+}
+
+#contact, #privacy{
+    background: #CCC;
+    padding: 5px 0;
 }
 
 #logo{
@@ -53,6 +58,7 @@ a{
 
 a:hover{
     color: #FFFF00;
+    text-decoration: none;
 }
 
 ul{

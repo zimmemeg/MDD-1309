@@ -3,8 +3,7 @@ Password: root<br>
 SQL Dumps: Assets folder - Snap.sql<br>
 For some reason I can't get it to register a new user. If you want to check functionality log in with<br>
 username: zimmemeg<br>
-password: password<br>
-You can not search and display yet however, I ran out of time for the week to finish it.
+password: password
 <br>
 Progress Video, Week 3 - http://youtu.be/VzDSaBUyuSk
 <br><br>
@@ -20,3 +19,4 @@ Log:<br>
 9/18/13 - Moved assets to asset folder, created log in for webpage. Working on viewing results.<br>
 9/18/13 - Updated CSS based on reviews. Can't figure out why it won't register new user, working on displaying results.<br>
 9/25/13 - Got API to function, updated file structure.<br>
+9/25/13 - Added contact information, privacy policy<br>

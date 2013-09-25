@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
-    <link href="Libraries/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/main.css">
         
@@ -43,6 +43,6 @@
 </body>
 
 <footer>
-    Megan Zimmerman | MDD 1309 | API use from <a href="http://www.flickr.com/">Flickr</a>
+    Megan Zimmerman | MDD 1309 | API use from <a href="http://www.flickr.com/">Flickr</a> | <a href="Views/contact.inc">Contact Us</a> | <a href="Views/privacy.inc">Privacy Policy</a>
 </footer>
 </html>

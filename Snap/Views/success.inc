@@ -40,7 +40,7 @@ include_once "Flickr.php";
     </div>
 
 <footer>
-    Megan Zimmerman | MDD 1309 | API use from <a href="http://www.flickr.com/">Flickr</a>
+    Megan Zimmerman | MDD 1309 | API use from <a href="http://www.flickr.com/">Flickr</a> | <a href="contact.inc">Contact Us</a> | <a href="Views/privacy.inc">Privacy Policy</a>
 </footer>
     
     <!--All Javascript down here-->
