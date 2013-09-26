@@ -21,8 +21,7 @@ include_once "Flickr.php";
             <a href="#"><img src="images/logo.png" alt="Snap!" width="451" height="151" id="logo"></a>
             
             <div id="nav">
-                <a href="index.php">Home</a> | 
-                <a href="register.php">Sign Up</a> | 
+                <a href="index.php">Home</a> |  
                 <a href="#">Profile</a> | 
                 <a href="http://www.flickr.com/">Flickr</a> |
                 <a href="views/logout.php">Log Out</a>
@@ -47,6 +46,5 @@ include_once "Flickr.php";
     <script src="js/jquery.min.js"></script>
     <script src="js/Flickr.js"></script>
     <script src="js/fancybox.js"></script>
-    <script src="js/mousewheel.js"></script>
 </body>
 </html>

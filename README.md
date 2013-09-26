@@ -5,7 +5,7 @@ For some reason I can't get it to register a new user. If you want to check func
 username: zimmemeg<br>
 password: password
 <br>
-Progress Video, Week 3 - http://youtu.be/VzDSaBUyuSk
+Progress Video, Week 4 - http://youtu.be/U6KPUEnp4OM
 <br><br>
 Log:<br>
 9/3/13 -  Set up of Pivotal Tracker and GitHub. Added Readme, created API Test<br>
@@ -20,3 +20,4 @@ Log:<br>
 9/18/13 - Updated CSS based on reviews. Can't figure out why it won't register new user, working on displaying results.<br>
 9/25/13 - Got API to function, updated file structure.<br>
 9/25/13 - Added contact information, privacy policy<br>
+9/25/13 - Cleaned up errors that were appearing on detail page.<br>

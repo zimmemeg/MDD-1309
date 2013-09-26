@@ -28,7 +28,6 @@ out to register, a button to take you to the sign up page and a navigation-->
             <div id="nav">
                 <a href="index.php">Home</a> | 
                 <a href="register.php">Sign Up</a> | 
-                <a href="#">Profile</a> | 
                 <a href="http://www.flickr.com/">Flickr</a>
             </div>
             

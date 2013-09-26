@@ -16,8 +16,7 @@
             
             <div id="nav">
                 <a href="index.php">Home</a> | 
-                <a href="register.php">Sign Up</a> | 
-                <a href="#">Profile</a> | 
+                <a href="register.php">Sign Up</a> |
                 <a href="http://www.flickr.com/">Flickr</a>
             </div>
             
